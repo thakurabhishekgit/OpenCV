@@ -1,0 +1,2 @@
+model = tf.keras.applications.MobileNetV2(weights='imagenet')
+model = load_model('models/mobile_classification_model.h5')
